@@ -10,4 +10,5 @@ docker-run:
 	docker run pasientskyhosting/docker-wazuh-agent:$(VERSION)
 
 docker-push:
+	docker push pasientskyhosting/docker-wazuh-agent:latest && \
 	docker push pasientskyhosting/docker-wazuh-agent:$(VERSION)
