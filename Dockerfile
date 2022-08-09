@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM debian:10.12-slim
 
 LABEL maintainer "cj@patientsky.com"
 LABEL version "4.0.0"
